@@ -1,0 +1,16 @@
+Il programma deve gestire una libreria con:
+ 
+classe item che contiene titolo, data, id
+classe Book sottoclasse item con autore
+classe DVD derivata di item con durata
+classe studente che può prendere un max di 5 item
+classe professore che può prendere in max di 10 item
+classe libreria con almeno attributo name e metodi borrowItem() e returnItem()
+
+I due metodi devono essere in grado di gestire la logica in modo autonomo
+
+Le stampe degli item devono essere:
+"Book - autore - id"
+"DVD - durata - id"
+
+Crea un main in grado di mostrare il funzionamento del programma senza input esterno

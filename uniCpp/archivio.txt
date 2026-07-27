@@ -1,0 +1,6 @@
+c;ml;30;10;boh
+as;cias;900;12;laso
+ciao;c;20;90;boh
+introduzione al c++;sticavoli;2021;905;fantasy
+miao;miaolino;2023;9;o
+prog1;farinella;2024;53;fantasy

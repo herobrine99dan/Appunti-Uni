@@ -1,0 +1,4 @@
+SummerFest;Catania;100
+TomorrowLand;New York;200
+HipHopClub;Parigi;50
+Serata90;Catania;250

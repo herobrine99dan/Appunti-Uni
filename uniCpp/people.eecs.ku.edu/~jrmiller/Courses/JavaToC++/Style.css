@@ -1,0 +1,74 @@
+body { 
+  margin: 1em;
+  font-family:Tahoma, Geneva, sans-serif;
+  line-height: 1.1;
+  background: white;
+  color: black; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-top: 1em;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 1em;
+}
+
+h1 {
+	font-size: 3em;
+    text-align: center;
+}
+h2 {
+	font-size: 2em
+}
+h3 {
+    font-size: 1.5em
+}
+h4 {
+	font-size: 1.25em
+}
+h5 {
+	font-size: 1em;
+    font-style: italic
+}
+h6 {
+	font-size: 1em;
+    text-decoration: overline underline;
+}
+
+b, strong { font-weight: bolder }  /* relative to the parent */
+i, cite, em, var, address, blockquote { font-style: italic }
+code, pre {
+    font-family: monospace; white-space: pre; display:inline
+}
+kbd, samp {
+    font-family: monospace; white-space: pre; display:inline
+}
+
+address { margin-left: 3em }
+blockquote { margin-left: 3em; margin-right: 3em }
+
+ul { list-style: disc }
+li { margin-left: 0.25em }
+
+a:link { color: blue }          /* unvisited link */
+a:visited { color: purple }        /* visited links */
+a:active { color: lime }        /* active links */
+a:hover { color: green; text-decoration: none }        /* active links */
+
+/* setting anchor border around IMG elements requires contextual selectors */
+
+a:link IMG { border: 2px solid blue }
+a:visited IMG { border: 2px solid red }
+a:active IMG { border: 2px solid lime }
+
+table { margin: 1em }
+
+.tightHangingIndent {
+	padding-left: 40px; text-indent: -40px; margin-bottom: 0; margin-top: 0
+}

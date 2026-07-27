@@ -1,0 +1,16 @@
+1) dichiarare costanti nei file, usare solo define
+2) chiamare le funzioni della lista concatenata con nomi appropriati (enqueue, dequeu; push-pop; append)
+3) "si assuma che" → controllare lunghezza
+4) calloc potrebbe darmi Null
+5) strrchr potrebbe dare NULL
+6) Le stringhe vuote non vanno considerate
+7) se la coda per qualche motivo risulta vuota, il programma non deve elaborare niente.
+8) controllare apertura file
+
+Coda: enqueu/offer/addLast    e    dequeue/poll/removeFirst
+Stack: push    e    pop
+LinkedList:  append
+
+*p++ ---> è come scrivere ---> *(p++) perchè l'operatore di dereferenziare
+In caso di problemi con scanf, usare come alternative fgets da stdin e sscanf o strtok
+int f(const * const p) ---> il secondo const dice che la funzione non può cambiare il valore della variabile locale (promette a se stessa che non cambierà la variabile locale, abbastanza inutile), il primo dice che la funzione non cambierà il dato della variabile puntata dal puntatore.
